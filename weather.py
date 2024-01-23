@@ -1,6 +1,6 @@
 import requests
 from ss import *
-api_address='http://api.openweathermap.org/data/2.5/weather?q=Delhi&appid=d07ca876d66f03014e29d4fd1598dc9a'
+api_address='http://api.openweathermap.org/data/2.5/weather?q=Delhi&appid=apiid'
 jason_data=requests.get(api_address).json()
 # print(jason_data)
 def temp():
