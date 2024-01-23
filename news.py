@@ -1,6 +1,6 @@
 import requests
 from ss import *
-api_address= "http://newsapi.org/v2/top-headlines?country=us&apikey=4efce9f1a48949049e3becb4c5f1b628"
+api_address= "http://newsapi.org/v2/top-headlines?country=us&apikey=apikey"
 jason_data = requests.get(api_address).json()
 ar=[]
 def news():
